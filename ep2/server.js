@@ -33,7 +33,7 @@ client.on('message', msg => {
     
   }
   
-  if (msg.content === `${prefix} today`) {
+  if (msg.content === `${prefix} tomorrow`) {
     
     msg.channel.send(`Tomorrow is ${tomorrow.getDate()} ${months[tomorrow.getMonth]} ${tomorrow.getFullYear()}`);
     
